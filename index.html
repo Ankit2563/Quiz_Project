@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Project</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="firstContainer">
+        <div class="container1">Timing : <span id="time"></span></div>
+
+    </nav>   
+    <div class="body"> 
+    <div class="container">
+        
+        <div class="game"> 
+            <div class="heading">
+            <h2 >Check Your General Knowledge</h2>
+            <h4>->All Questions are compulsory to attempt</h4>
+            <h4>->Each Question carries 10 Marks</h4>
+        </div>
+            <div class="content"> 
+
+                
+                <h1 class="question"></h1>
+                <div class="answers"> 
+                    <div class="answer">
+                        <input name="answer" type="radio" id="answer1" value="false">
+                        <label for="answer1"></label>
+                    </div>
+                </div>
+            </div> 
+            <button class="submit">Submit</button>
+        </div>
+        <div class="result">
+            <h1>Conagratulations</h1>
+            <h3 class="correct"></h3>
+            <h3 class="wrong"></h3>
+            <h2 class="score"></h2>
+            <button class="play">Play again</button>
+            
+        </div>
+    </div>
+</div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
